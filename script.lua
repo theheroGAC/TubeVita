@@ -11,7 +11,7 @@
 ]]
 
 -- ## Auto Update ##
-dotfile("git/updater.lua")
+dofile("git/updater.lua")
 
 -- ## MESSAGGIO DI CARICAMENTO ##
 screen.print(5, 5, 'Loading Tubevita...'); screen.flip()
