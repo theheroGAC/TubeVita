@@ -10,6 +10,9 @@
 	# Sentitevi liberi di modificare il codice sorgente
 ]]
 
+-- ## Auto Update ##
+dotfile("git/updater.lua")
+
 -- ## MESSAGGIO DI CARICAMENTO ##
 screen.print(5, 5, 'Loading Tubevita...'); screen.flip()
 splash.show("resources/tubevita.png")
