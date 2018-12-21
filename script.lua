@@ -38,7 +38,7 @@ screen.print(25, 446, "Press X for Youtube",1, color.red, color.black)
 screen.print(25, 468, "Press Square for Playstation Channel",1, color.red, color.black)
 screen.print(25, 490, "Press Triangle for Exit ",1, color.red, color.black)
 
-if buttons.cross then os.uri ("webmodal: https://m.youtube.com") end
+if buttons.cross then os.uri ("webmodal: https://www.youtube.com/?gl=IT&hl=it&app=desktop&persist_app=1&client=mv-google") end
 if buttons.square then os.uri ("webmodal: https://www.youtube.com/user/PlayStation/videos") end
 if buttons.triangle then os.exit() end
 screen.flip()
